@@ -7,9 +7,9 @@ print("Tengo un numero entre 1 y 20.")
 for intento in range(1, intentos + 1):
     adivinanza = int(input(f"Intento {intento} de {intentos}. ¿Cual es tu adivinanza? "))
     if adivinanza < numero_secreto:
-        print("Tu adivinanza es muy baja.")
+        print("Tu adivinanza esta abajo del numero.")
     elif adivinanza > numero_secreto:
-        print("Tu adivinanza es muy alta.")
+        print("Tu adivinanza esta arrriba del numero")
     else:
         print(f"¡Felicidades! Has adivinado el numero {numero_secreto} en {intento} intentos.")
         break
